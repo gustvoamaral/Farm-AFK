@@ -5,17 +5,17 @@ async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function enterRankup(bot, home) {
-    console.log(`Bot ${bot.username} entrando no RankUp!`);
+    console.log(`Bot ${bot.username} Redirecionando para o RankUP`);
 
     await bot.waitForTicks(0);
-    bot.setQuickBarSlot(0); // para o glad 4 e o star 0
+    bot.setQuickBarSlot(0); // Para o GladMC 4 e StarDix 0
     bot.activateItem();
     await bot.waitForTicks(0);
 
     let attempts = 0;
 
     while (bot.currentWindow == null) {
-      bot.setQuickBarSlot(0); // para o glad 4 e o star 0
+      bot.setQuickBarSlot(0); // Para o GladMC 4 e StarDix 0
       bot.activateItem();
       await bot.waitForTicks(10);
       attempts++;
@@ -32,7 +32,7 @@ async function enterRankup(bot, home) {
           if (bot.currentWindow == null) break;
           await bot.waitForTicks(20);
         } else {
-          console.log("Não foi possível entrar no RankUp! Reconectando...".red);
+          console.log("Não foi possível entrar no RankUP! Reconectando...".red);
           bot.end("reconnect-needed");
           enterRankup(bot, home);
           break;
