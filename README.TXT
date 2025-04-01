@@ -10,8 +10,8 @@ Passo a passo:
 
 --> Instale o Node.js
 
--->Instale as dependencia iniciando o arquivo 'install'.
+--> Instale as dependencia iniciando o arquivo 'install'.
 
--->Por fim, inicie o bot abrindo o arquivo 'start'.
+--> Por fim, inicie o bot abrindo o arquivo 'start'.
 
 Customization by Gustavo and Anna_152.
