@@ -1,10 +1,10 @@
-Como fazer funcionar:
+🛠️ Um bot para manter seu personagem ativo (AFK) em uma área específica dentro do Minecraft, sem a necessidade de abrir várias instâncias do jogo no seu computador.
 
--->Crie um bot de discord em discord.dev (Com perm AD).
+--> Crie um bot de discord em discord.dev (Com perm AD).
 
--->Entre na pasta '.env' e coloque o TOKEN e o CHANNEL nos devidos lugares.
+--> Entre na pasta '.env' e coloque o TOKEN e o CHANNEL nos devidos lugares.
 
--->Entre na pasta 'accounts' e coloque seu nick, senha e pw.
+--> Entre na pasta 'accounts' e coloque seu nick, senha e pw.
 
 --> Instale o Node.js
 
