@@ -5,7 +5,7 @@ async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function enterRankup(bot, home) {
-    console.log(`Bot ${bot.username} Redirecionando para o RankUP`);
+    console.log(`Bot ${bot.username} Redirecionando para o RankUP`.blue);
 
     await bot.waitForTicks(0);
     bot.setQuickBarSlot(0); // Para o GladMC 4 e StarDix 0
