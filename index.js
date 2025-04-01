@@ -8,8 +8,6 @@ require('dotenv').config()
 const token = process.env.TOKEN
 var channel = process.env.CHANNEL
 
-// Discord bot
-
 const client = new Client({
   intents: [GatewayIntentBits.Guilds,
   GatewayIntentBits.GuildMessages,
