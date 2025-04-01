@@ -1,4 +1,6 @@
-🛠️ Um bot para manter seu personagem ativo (AFK) em uma área específica dentro do Minecraft, sem a necessidade de abrir várias instâncias do jogo no seu computador.
+🛠️ Um bot para deixar o seu personagem (AFK) em uma área específica dentro do Minecraft, sem a necessidade de abrir várias instâncias do jogo no seu computador.
+
+Passo a passo: 
 
 --> Crie um bot de discord em discord.dev (Com perm AD).
 
