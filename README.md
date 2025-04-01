@@ -56,5 +56,5 @@ Os bots podem ser controlados via um canal específico no Discord com os seguint
 - `!stop <bot>` - Desliga o bot.
 - `!start <bot>` - Liga um bot desligado.
 
-## 🤖 Customization by Gustavo and Anna_152.
+## 🤖 Customization by Gustavo.
 
