@@ -136,7 +136,7 @@ const bot_creator = ({ username, pass, home, auth }) => {
     }
   })
 
-  // Variable
+  // Variavel
   bot.location = 'unknown'
   bot.isRestarting = false
   bot.disconnected = false
